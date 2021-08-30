@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-color: #A2DCEE;
+}
+
+.Home {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 72px;
 }
 
 .App-logo {
@@ -35,4 +41,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  background-color: #345DA7;
 }
