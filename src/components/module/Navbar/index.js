@@ -22,18 +22,18 @@ export const Navbar = ({ className }) => {
       </div>
       <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
         <div className="flex-shrink-0 flex items-center">
-          <img className="hidden lg:block h-8 w-auto" src="https://sdl-stickershop.line.naver.jp/products/0/0/1/1140900/android/stickers/5747091.png"/>
+          {/* <img className="hidden lg:block h-8 w-auto" src="https://sdl-stickershop.line.naver.jp/products/0/0/1/1140900/android/stickers/5747091.png"/> */}
         </div>
         <div className="hidden sm:block sm:ml-6">
           <div className="flex space-x-4">
             
-            <a href="/Home" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-3xl">Home</a>
+            <a href="/Home" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-2xl">Home</a>
 
-            <a href="/About" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-3xl">About</a>
+            <a href="/About" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-2xl">About</a>
 
-            <a href="/Project" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-3xl">Projects</a>
+            <a href="/Project" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-2xl">Projects</a>
 
-            <a href="/Skill" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-3xl">Skills</a>
+            <a href="/Skill" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium text-2xl">Skills</a>
           </div>
         </div>
       </div>
