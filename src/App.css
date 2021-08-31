@@ -1,11 +1,22 @@
 .App {
   text-align: center;
-  background-color: #A2DCEE;
+  background: linear-gradient(
+      to top,
+      #F392A3 0%,
+      #FDD194 100%
+    );
 }
 
+
+
 .Home {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Cabin Sketch', cursive;
   font-size: 72px;
+  background-color: #D47A72;
+  border-radius: 25px;
+  padding-top: 20px;
+  width: 500px;
+  height: 400px;
 }
 
 .App-logo {
@@ -44,5 +55,24 @@
 }
 
 .navbar {
-  background-color: #345DA7;
+  background-color: #D47A72;
+  font-family: 'Balsamiq Sans', cursive;
 }
+
+.profile {
+  background-color: #D47A72;
+  border-radius: 25px;
+  width: 500px;
+  height: 550px;
+}
+
+.headAbout {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 50px;
+}
+
+.about {
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 20px;
+}
+
