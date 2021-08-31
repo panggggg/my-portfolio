@@ -20,7 +20,10 @@ function App() {
           <HomePage className="Home"/>
           </Route>
           <Route exact path="/About">
-            <AboutPage/>
+            <AboutPage 
+            className="profile"
+            header="headAbout"
+            about="about"/>
           </Route>
           <Route exact path="/Project">
             <ProjectPage/>
