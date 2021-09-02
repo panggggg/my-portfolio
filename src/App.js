@@ -22,14 +22,17 @@ function App() {
           <Route exact path="/About">
             <AboutPage 
             className="profile"
-            header="headAbout"
+            header="topics"
             about="about"/>
           </Route>
           <Route exact path="/Project">
-            <ProjectPage/>
+            <ProjectPage
+              className="topics"
+              fontProject="project"/>
           </Route>
           <Route exact path="/Skill">
-            <SkillPage/>
+            <SkillPage
+            className="topics"/>
           </Route>
         </Switch>
       </Router>
