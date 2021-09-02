@@ -32,7 +32,9 @@ function App() {
           </Route>
           <Route exact path="/Skill">
             <SkillPage
-            className="topics"/>
+            className="topics"
+            fontSkill="skill"
+            card="card"/>
           </Route>
         </Switch>
       </Router>
