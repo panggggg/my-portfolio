@@ -9,7 +9,7 @@ export const AboutPage = ({ className, header, about }) => {
                         <img className="pr-20 pt-10 rounded-full flex items-center justify-center " src="https://scontent.fbkk8-4.fna.fbcdn.net/v/t1.6435-9/90055791_1559958094179692_2144726979075637248_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHP7o_nXfQYXs4cFIeMflmdZ5ZYtOsm0mdnlli06ybSZ5R408uFJoyHQVkUZ3zyIn_4XR1XylvZWbG24UR3JAeB&_nc_ohc=nxjfnxe0NNcAX8bsDWj&tn=yi1BwWuK7xF4zIaA&_nc_ht=scontent.fbkk8-4.fna&oh=00e590f7eae490b431fafaead3b3c0e2&oe=61515391" width="600px" />
                     </div>
                 </div>
-                <div className="span-row-2">
+                <div className="span-row-2 justify-items-center">
                     <div className="">
                         <div className={className}>
                             <br/>
