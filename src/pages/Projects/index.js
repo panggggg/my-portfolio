@@ -2,7 +2,7 @@ import { React } from 'react';
 
 export const ProjectPage = ({ className, fontProject }) => {
     return (
-        <div className="h-screen">
+        <div className="">
             <div className="pt-5 pb-5">
                 <h1 className={className}>My Project</h1>
             </div>
@@ -11,7 +11,7 @@ export const ProjectPage = ({ className, fontProject }) => {
             <div className="px-96 justify-center">
 
             <div class="flex flex-col">
-            <div class="flex bg-red-200 max-w-2xl ml-40 mr-40 mb-2 shadow-lg">
+            <div class="flex bg-red-200 max-w-2xl ml-40 mr-40 mb-2 shadow-lg cursor-pointer shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
                 <div class="w-20 bg-red-400">
                     <div class="p-4">
                         <img src="https://img-premium.flaticon.com/png/512/5305/premium/5305370.png?token=exp=1630392979~hmac=e9ba578d90bfea4c34fa7c326f0c31e0" width="50px"/>
@@ -29,7 +29,7 @@ export const ProjectPage = ({ className, fontProject }) => {
             </div>
 
             <div class="flex flex-col">
-            <div class="flex bg-pink-200 max-w-2xl ml-40 mr-40 mb-2 shadow-lg">
+            <div class="flex bg-pink-200 max-w-2xl ml-40 mr-40 mb-2 shadow-lg cursor-pointer shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
                 <div class="w-20 bg-pink-400">
                     <div class="p-4">
                         <img src="https://image.flaticon.com/icons/png/512/5231/5231909.png" width="50px"/>
@@ -47,7 +47,7 @@ export const ProjectPage = ({ className, fontProject }) => {
             </div>
 
             <div class="flex flex-col">
-            <div class="flex bg-yellow-200 max-w-2xl ml-40  mr-40 mb-2 shadow-lg">
+            <div class="flex bg-yellow-200 max-w-2xl ml-40  mr-40 mb-2 shadow-lg cursor-pointer shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
                 <div class="w-20 bg-yellow-400">
                     <div class="p-4">
                         <img src="https://image.flaticon.com/icons/png/512/5348/5348061.png" width="50px"/>
@@ -65,7 +65,7 @@ export const ProjectPage = ({ className, fontProject }) => {
             </div>
 
             <div class="flex flex-col">
-            <div class="flex bg-green-200 max-w-2xl ml-40  mr-40 mb-2 shadow-lg">
+            <div class="flex bg-green-200 max-w-2xl ml-40  mr-40 mb-2 shadow-lg cursor-pointer shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
                 <div class="w-20 bg-green-400">
                     <div class="p-4">
                         <img src="https://image.flaticon.com/icons/png/512/5099/5099105.png" width="50px"/>
@@ -83,7 +83,7 @@ export const ProjectPage = ({ className, fontProject }) => {
             </div>
 
             <div class="flex flex-col">
-            <div class="flex bg-blue-200 max-w-2xl ml-40  mr-40 mb-2 shadow-lg">
+            <div class="flex bg-blue-200 max-w-2xl ml-40  mr-40 mb-2 shadow-lg cursor-pointer shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
                 <div class="w-20 bg-blue-400">
                     <div class="p-4">
                         <img src="https://image.flaticon.com/icons/png/512/5396/5396706.png" width="50px"/>
@@ -100,8 +100,8 @@ export const ProjectPage = ({ className, fontProject }) => {
             </div>
             </div>
 
-            <div class="flex flex-col">
-            <div class="flex bg-purple-200 max-w-2xl ml-40  mr-40 mb-2 shadow-lg">
+            <div class="flex flex-col pb-8">
+            <div class="flex bg-purple-200 max-w-2xl ml-40  mr-40 mb-2 shadow-lg cursor-pointer shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
                 <div class="w-40 bg-purple-400">
                     <div class="p-4">
                         <img src="https://image.flaticon.com/icons/png/512/5099/5099382.png" width="50px"/>
