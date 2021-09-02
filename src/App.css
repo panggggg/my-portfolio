@@ -11,7 +11,7 @@
 
 .Home {
   font-family: 'Cabin Sketch', cursive;
-  font-size: 72px;
+  font-size: 70px;
   background-color: #D47A72;
   border-radius: 25px;
   padding-top: 20px;
@@ -64,15 +64,21 @@
   border-radius: 25px;
   width: 500px;
   height: 550px;
+  align-content: center;
 }
 
-.headAbout {
+.topics {
   font-family: 'Cabin Sketch', cursive;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .about {
   font-family: 'Balsamiq Sans', cursive;
   font-size: 20px;
 }
+
+.project {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
 
