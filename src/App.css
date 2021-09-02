@@ -81,4 +81,18 @@
   font-family: 'Balsamiq Sans', cursive;
 }
 
+.skill {
+  font-family: 'Balsamiq Sans', cursive;
+
+}
+
+.card {
+  background-color: #D47A72;
+  width: 150px;
+  height: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
