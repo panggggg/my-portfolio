@@ -8,7 +8,7 @@ import { SkillPage } from './pages/Skills/index';
 
 function App() {
   return (
-    <div>
+    <div className="">
       <Navbar className='navbar'/>
       <div className="App">
       <Router>
