@@ -7,14 +7,18 @@ export const ProjectPage = ({ className, fontProject }) => {
                 <h1 className={className}>My Project</h1>
             </div>
             
+            <div>
+
+                
+            </div>
             <div className={fontProject}>
-            <div className="px-96 justify-center">
+            <div className="px-96 justify-center grid md:grid-rows">
 
             <div class="flex flex-col">
             <div class="flex bg-red-200 max-w-2xl ml-40 mr-40 mb-2 shadow-lg cursor-pointer shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
                 <div class="w-20 bg-red-400">
                     <div class="p-4">
-                        <img src="https://img-premium.flaticon.com/png/512/5305/premium/5305370.png?token=exp=1630392979~hmac=e9ba578d90bfea4c34fa7c326f0c31e0" width="50px"/>
+                        <img src="https://image.flaticon.com/icons/png/512/3081/3081098.png" width="50px"/>
                     </div>
                 </div>
                 <div class="w-auto text-grey-darker text-left p-4">
@@ -29,8 +33,8 @@ export const ProjectPage = ({ className, fontProject }) => {
             </div>
 
             <div class="flex flex-col">
-            <div class="flex bg-pink-200 max-w-2xl ml-40 mr-40 mb-2 shadow-lg cursor-pointer shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
-                <div class="w-20 bg-pink-400">
+            <div class="flex bg-yellow-100 max-w-2xl ml-40 mr-40 mb-2 shadow-lg cursor-pointer shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
+                <div class="w-20 bg-yellow-600">
                     <div class="p-4">
                         <img src="https://image.flaticon.com/icons/png/512/5231/5231909.png" width="50px"/>
                     </div>
@@ -100,6 +104,24 @@ export const ProjectPage = ({ className, fontProject }) => {
             </div>
             </div>
 
+            <div class="flex flex-col">
+            <div class="flex bg-blue-300 max-w-2xl ml-40  mr-40 mb-2 shadow-lg cursor-pointer shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
+                <div class="w-20 bg-blue-500">
+                    <div class="p-4">
+                        <img src="https://image.flaticon.com/icons/png/512/651/651799.png" width="50px"/>
+                    </div>
+                </div>
+                <div class="w-auto text-grey-darker text-left p-4">
+                    <span class="text-lg font-bold pb-4 text-left">
+                        Fung Pleng Gun Mobile Application
+                    </span>
+                    <p class="leading-tight">
+                        using Flutter and Firebase
+                    </p>
+                </div>
+            </div>
+            </div>
+
             <div class="flex flex-col pb-8">
             <div class="flex bg-purple-200 max-w-2xl ml-40  mr-40 mb-2 shadow-lg cursor-pointer shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-500">
                 <div class="w-40 bg-purple-400">
@@ -117,6 +139,7 @@ export const ProjectPage = ({ className, fontProject }) => {
                 </div>
             </div>
             </div>
+
 
             </div>
             </div>
