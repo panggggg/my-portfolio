@@ -90,7 +90,7 @@ export const SkillPage = ({ className, fontSkill }) => {
     return (
         <div className="">
             <h1 className={className}>My Skill</h1>
-            <div className="grid grid-cols-5 p-16">
+            <div className="grid md:grid-cols-5 pt-4 pb-2 ">
             {skillList.map((value) => {
                 return (
 
