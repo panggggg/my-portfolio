@@ -16,21 +16,21 @@ function App() {
           <Route exact path="/">
             <HomePage className="Home"/>
           </Route>
-          <Route exact path="/Home">
+          <Route exact path="/my-portfolio/Home">
           <HomePage className="Home"/>
           </Route>
-          <Route exact path="/About">
+          <Route exact path="/my-portfolio/About">
             <AboutPage 
             className="profile"
             header="topics"
             about="about"/>
           </Route>
-          <Route exact path="/Project">
+          <Route exact path="/my-portfolio/Project">
             <ProjectPage
               className="topics"
               fontProject="project"/>
           </Route>
-          <Route exact path="/Skill">
+          <Route exact path="/my-portfolio/Skill">
             <SkillPage
             className="topics"
             fontSkill="skill"
